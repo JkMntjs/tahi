@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.Main {
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.AdminSidebar {
+    padding-top: 40px;
+    width: 270px;
+    background-color: rgb(42, 41, 41);
+    height: 100%;
+    overflow: auto;
+}
+
+.Signout {
+    margin-top: 180px;
+    margin-left: 40px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    display: flex;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.Signout:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.Container {
+    flex-grow: 1;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    width: 100vw;
+}
+
+.title {
+    font-size: 10em;
+}
+
+h1 {
+    color: rgb(33, 160, 90);
+    font-size: 3.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /**di mo gana font family sa tanan*/
+    font-weight: bold;
+}
+
+.info {
+    padding: 0;
+    font-size: 2em;
+    color: black;
+}
+
+.sidebar-item {
+    padding: .50em 2.5em;
+    display: block;
+    /**Pra mo pababa ang alignment sa submenu*/
+    background-color: rgb(42, 41, 41);
+    /** darker ang green ani*/
+}
+
+.sidebar-item:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.sidebar-title {
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    display: flex;
+    font-size: 1.2em;
+    justify-content: space-between;
+    background-color: rgb(42, 41, 41);
+    cursor: pointer;
+}
+
+.sidebar-title:hover {
+    text-decoration: underline;
+}
+
+.span i {
+    display: inline-block;
+    width: 1em;
+}
+
+.sidebar-item .toggle-btn {
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.sidebar-item.open>.sidebar-title .toggle-btn {
+    transform: rotate(180deg);
+}
+
+
+/**================== remove ni para makita ang submenus========================*/
+
+.sidebar-content {
+    padding-top: 1.5em;
+    height: 20px;
+    overflow: hidden;
+}
+
+.sidebar-item.open>.sidebar-content {
+    height: auto;
+}
+
+.sidebar-item.plain {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .90em;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-item.plain:hover {
+    text-decoration: underline;
+}
+
+.sidebar-item.plain i {
+    display: inline-block;
+    width: 1.7em;
+}

@@ -1,0 +1,66 @@
+[
+
+    {
+        "title": "Manage Users",
+        "children": [{
+                "title": "Admin",
+                "path": "/"
+            },
+            {
+                "title": "Store",
+                "path": "/"
+            },
+            {
+                "title": "Customers",
+                "path": "/"
+            }
+
+        ]
+    },
+
+
+
+
+    {
+        "title": "Manage Shops",
+        "children": [{
+                "title": "View",
+                "path": "/"
+            },
+            {
+                "title": "Edit",
+                "path": "/"
+            }
+
+        ]
+    },
+    {
+
+        "title": "Registries",
+        "children": [{
+                "title": "New",
+                "path": "/"
+            },
+            {
+                "title": "Accepted",
+                "path": "/"
+            }, {
+                "title": "Declined",
+                "path": "/"
+            }, {
+                "title": "History",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "Messages",
+        "children": [{
+            "title": "Compose",
+            "path": "/"
+        }, {
+            "title": "Inbox",
+            "path": "/"
+        }]
+    }
+]

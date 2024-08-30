@@ -1,0 +1,88 @@
+.icons {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: rgb(42, 41, 41);
+    padding-bottom: 30px;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.inputsContainer {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 60px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input input {
+    height: 50px;
+    width: 480px;
+    background: transparent;
+    border: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.submitContainer {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 50px;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(33, 160, 90);
+}
+
+.cancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 50px;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(33, 160, 90);
+}
